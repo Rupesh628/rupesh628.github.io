@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.nav-bar { 
+    height: 60px;
+    background-color: #0F1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.nav-logo{
+    height: 40px;
+    width: 120px;
+}
+.logo{
+    background-image: url(amazon-logo.png);
+    height: 40px;
+    width: 100%;
+    /* margin-top: 10px; */
+    background-size: cover;  
+}
+.border{
+    border: 2px solid transparent;
+}
+.border:hover{
+    border: 2px solid white;
+}
+.nav-address{
+
+}
+.nav-address .line1{
+    color: #cccccc;
+    font-size: 0.75rem;
+    margin-left: 14px;
+}
+.nav-address .line2{
+    padding-left: 2px;
+}
+.adress-icon{
+    display: flex;
+    text-align: center;
+    font-size: 15px;
+}
+.nav-search{
+    width: 800px;
+    height: 40px;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: green;
+    border-radius: 4px;
+}
+.nav-search:hover{
+    border: 2px solid orange;
+}
+.search-select{
+    background-color: #f3f3f3;
+    width: 50px;
+    text-align: center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: none;
+}
+.search-input{
+width: 100%;
+font-size: 1rem;
+border: none;
+}
+.search-icon{
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    background-color: #febd68;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    color: #0F1111;
+}
+.language p{
+    font-size: 1rem;
+    display: inline;
+}
+.nav-signin span{
+    font-size: 0.8rem
+}
+.nav-2nd{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+.nav-returns span{
+    font-size: 0.8rem
+}
+.nav-2nd{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+.nav-cart i{
+    font-size: 27px;
+}
+.nav-cart{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+.panel{
+    height: 40px;
+    background-color: #222f32;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: white;
+}
+.panel-ops p{
+    display: inline;
+    margin-left: 15px;
+    font-weight: 600;
+}
+.panel-ops{
+    width: 90%;
+    font-size: 0.85rem;
+    margin-right: 20px;
+}
+
+.hero-section{
+    background-image: url(hero-image1.jpg);
+    background-size: cover;
+    height: 350px;
+    display: flex;
+    justify-content: left;
+    align-items: flex-end;
+}
+.shop-content{
+    width: 100%;
+    height: 350px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: end;
+}
+.box{
+    border: 2px solid black;
+    background-color: white;
+    width: 20%;
+    height: 300px;
+    margin-bottom: 130px;
+}
+.box1{
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+flex-wrap: wrap;
+}
+.mini-box{
+    border: 2px solid green;
+    height: 100px;
+    width: 120px;
+}
+</style>
+</head>
+<body>
+    <header>
+        <div class="nav-bar">
+            <div class="nav-logo border">
+                <div class="logo"></div>
+            </div>
+
+            <div class="nav-address border">
+                <p class="line1">Delivery to</p>
+                <div class="adress-icon">
+                    <i class="fa-solid fa-location-dot"></i>
+                <p class="line2">Nepal</p>
+                </div>
+            </div>
+            <div class="nav-search">
+               <select class="search-select">
+                <option value="">All</option>
+            </select>
+                <input type="text" placeholder="Search Amazon" class="search-input">
+                <div class="search-icon"><i class="fa-solid fa-magnifying-glass"></i></div>
+                </div>
+                <div class="language border">
+                    &#127482;&#127480;
+                    <p>EN</p>
+                </div>
+                <div class="nav-signin border">
+                    <p><span>Hello, sign in</span></p>
+                    <p class="nav-2nd">Account & Lists</p>
+                </div>
+                <div class="nav-returns border">
+                    <p><span>Returns</span></p>
+                    <p class="nav-2nd">& Orders</p>
+                </div>
+                <div class="nav-cart border">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    Cart    
+                </div>
+            </div>
+        </div>
+
+        <div class="panel">
+            <div class="pannel-all">
+                <i class="fa-solid fa-bars"></i>
+                All
+            </div>
+            <div class="panel-ops">
+
+                    <p class="border">Today's Deals</p>
+                    <p class="border">Customer Service</p>
+                    <p class="border">Registry</p>
+                    <p class="border">Gift Cards</p>
+                    <p class="border">Sell</p>
+
+                    </div>
+                
+            </div>
+        </div>
+    </header>
+    <div class="hero-section">
+    </div>  
+        <div class="shop-content">
+            <div class="box1 box">
+                <div class="mini-box">1</div>
+                <div class="mini-box">2</div>
+                <div class="mini-box">3</div>
+                <div class="mini-box">4</div>
+            </div>
+            <div class="box2 box">2</div>
+            <div class="box3 box">3</div>
+            <div class="box4 box">4</div>
+        </div>
+
+    </div>
+
+    
+</body>
+</html>

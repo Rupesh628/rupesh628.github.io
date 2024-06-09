@@ -1,0 +1,1005 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        *{
+            margin: 0;
+            font-family: sans-serif;
+            /* background-color: #050505; */
+            color: rgba(237, 231, 231, 0.893);
+            box-sizing: border-box;
+            
+        }
+        body,html{
+            scroll-behavior: smooth;
+        }
+       
+        header{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            padding: 15px 0 100px 0;
+            /* margin-bottom: 40px; */
+            background-color: black;
+        }
+        
+        nav{
+            /* margin-right: 50px ; */
+
+        }
+        nav ul{
+            display: flex;
+            align-items: center;
+            gap: 50px;
+        }
+        nav ul li{
+        font-size: .8vw;
+        list-style: none;
+        text-transform: uppercase;
+    }
+    nav ul li a{
+        text-decoration: none;
+        
+    }
+    section{
+        background-color: black;
+        /* min-height: 80vh; */
+    }
+h1{
+    font-size: 1.9vw;
+    padding: 10px 0;
+}
+.search{
+    height: 30px;
+    width: 30px;
+    border: 2px solid white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.search i{
+    font-size: .9vw;
+}
+.Home{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#intro{
+    /* border: 2px solid red; */
+    width: 47vw;
+    margin-left: 110px;
+}
+#intro h2{
+    font-size: .8vw;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    word-spacing: 3px ;
+    padding-top: 40px;
+}
+#intro h3{
+    font-size: 5.5vw;
+    text-transform: uppercase;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+#intro span{
+    font-style: italic;
+    color: blue;
+    font-weight: 100;
+}
+#intro p{
+    width: 28vw;
+    font-size: .9vw;
+    color: rgba(162, 160, 160, 0.681);
+}
+.Home img{
+    border: 10px solid blue;
+    border-radius: 0 0 50px 50px;
+    height: 55vh;
+    width: 25vw;
+    /* position: relative; */
+    bottom: 40px;
+    right: 50px;   
+}
+.About{
+    padding-top: 60px;
+    padding-bottom: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    /* gap: 30px; */
+}
+
+.box{
+    /* border: 2px solid green; */
+    height: 15px;
+    width: 15px;
+    border-radius: 100%;
+    position: absolute;
+    /* border: 2px solid red; */
+}
+.box1{
+    background-color: aqua;
+    box-shadow: 1px 1px 5px aqua, -1px -1px 5px aqua;
+    bottom: .1%;
+    left: -4px;
+}
+.box2{
+    background-color: blue;
+    box-shadow: 1px 1px 5px blue, -1px -1px 5px blue;
+    right: -6px;
+    bottom: 30%;
+}
+.box3{
+    background-color: yellow;
+    box-shadow: 1px 1px 5px yellow, -1px -1px 5px yellow;
+    left: -4px;
+    bottom: 64%;
+}
+
+.image{
+    width: 380px;
+    position: relative;
+    left: 10%;
+}
+.About img{
+   width: 100%;
+   height: 100%;
+   border-bottom-right-radius: 30px;
+}
+.introduction h2{
+    width: 35vw;
+    font-size: 3vw;
+    font-weight: 100;
+    margin-bottom: 20px;
+    
+}
+.introduction h5{
+    width: 30vw;
+    font-size: 1.4vw;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+    font-weight: 100;
+    margin-bottom: 10px;
+}
+.introduction p{
+    /* border: 2px solid red; */
+    font-size: 1vw;
+    width: 30vw;
+    line-height: 1.4vw;
+}
+.service{
+    /* height: 100vh; */
+    position: relative;
+    /* border: 2px solid blue; */
+    padding: 68px 0 ;
+    
+    }
+    .service-box{
+        padding: 50px 0 100px 0;
+        /* margin-top: 60px; */
+        background-color: #1a1a1b;
+        /* height: 80vh; */
+}
+.service .circle{
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    position: absolute;
+}
+.service .circle1{
+    background-color: blue;
+    box-shadow: 1px 1px 5px blue, -1px -1px 5px blue;
+    right: 10%;
+    top: -1.3%;
+}
+.service .circle2{
+    background-color: aqua;
+    box-shadow: 1px 1px 5px aqua, -1px -1px 5px aqua;
+    right: 13%;
+    top: 31%;
+}
+.service .circle3{
+    background-color: red;
+    box-shadow: 1px 1px 5px red, -1px -1px 5px red;
+    right: 1%;
+    top: 20%;
+}
+.uper{
+    height: 100%;
+    /* background-color: #161616; */
+    /* border: 2px solid red; */
+    text-align: center;
+    width: 70%;
+    margin: 0 auto;
+    /* padding-top: 20px; */
+
+}
+
+.service .two{
+    /* border: 2px solid red; */
+    font-size: 2.8vw;
+    color: blue;
+    text-transform: capitalize;
+    padding-bottom: 40px;
+    padding-top: 0;
+    text-align: center;
+}
+.skill{
+    border-bottom: 1px solid white;
+}
+
+.product{
+    /* border-bottom: 1px solid white; */
+    padding: 30px;
+    cursor: pointer;
+    /* border: 2px solid red; */
+    -webkit-text-stroke: 1px white;
+    color: transparent;
+    font-size: 2vw;
+    position: relative;
+    transition: all .2s linear;
+}   
+
+.product:hover{
+  transform: scale(1.3);
+
+}
+/* .product::after{
+    content: "";
+    width: 100%;
+    height: 1px;
+    background-color: rgb(55, 54, 54);
+    position: absolute;
+    bottom: 5px;
+    left: 0;
+} */
+.product i{
+    -webkit-text-stroke: none;
+    color: transparent;
+}
+.testimonials{
+    background-color: black;
+    padding: 150px 50px;
+    }
+#docs{
+        font-size: 3vw;
+        text-align: center;
+        margin-bottom: 40px;
+    }
+.upper{
+    /* border: 2px solid red; */
+    background-color: #1a1a1b;
+    height: 62vh;
+    width: 70%;
+    text-align: center;
+    margin: auto;
+    position: relative;
+}
+.upper .circle{
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    position: absolute;
+}
+.upper .circle1{
+    background-color: aqua;
+    box-shadow: 1px 1px 5px aqua, -1px -1px 5px aqua;
+    bottom: 45%;
+    right: 10%;
+}
+.upper .circle2{
+    background-color: blue;
+    box-shadow: 1px 1px 5px blue, -1px -1px 5px blue;
+    bottom: 2%;
+    right: 5%;
+}
+.upper .one{
+    font-size: 2.9vw;
+    /* border: 2px solid green; */
+    padding: 0;
+    margin-bottom: 3%;
+    color: blue;
+}
+.upper .two{
+    width: 78%;
+    font-size: 2.5vw;
+    /* border: 2px solid red; */
+    margin: auto;
+}
+.upper #profile{
+    /* border: 2px solid red; */
+    height:80px;
+    width: 80px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 20px auto;
+}
+.upper #profile img{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    /* object-fit: cover; */
+}
+.my-name{
+    font-weight: 100;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+}
+.upper p{
+    font-size: 1vw;
+    padding: 5px;
+    color: blue;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+.upper i{
+    font-size: 2vw;
+    padding-top: 30px;
+    cursor: pointer;
+}
+.blog{
+    /* height: 100vh; */
+}
+.blog-container{
+    /* border: 2px solid red; */
+    /* height: 70vh; */
+    width: 70vw;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 30px;
+}
+
+.blog-box h1{
+    /* border: 2px solid green; */
+    font-size: 2.5vw;
+}
+.button-box button{
+    background-color: #ffffff;
+    color: black;
+    font-size: 1.3vw;
+    text-align: center;
+    /* height: 5vh; */
+    /* width: 10vw; */
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+#blog-image{
+    width: 75vw;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: auto;
+    gap: 15px;
+}
+
+.image-layer{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(35, 131, 150, 0.452);
+    position: absolute;
+}
+ 
+.blog-image1{
+    border: 2px solid red;
+    height: 40vh;
+    width: 35vw;
+    position: relative;
+}
+.blog-image1:nth-child(2) .image-layer{
+    background-color: rgba(75, 150, 35, 0.452);
+}
+.blog-image1:nth-child(3) .image-layer{
+    background-color: rgba(150, 35, 35, 0.452);
+}
+.blog-image1:nth-child(4) .image-layer{
+    background-color: rgba(182, 253, 2, 0.452);
+}
+#blog-image img{
+    height: 100%;
+    width: 100%;
+}
+.image-text{
+    font-size: 2vw;
+    position: absolute;
+    bottom: 2%;
+    left: 2%;
+}
+.image-text h1{
+    /* -webkit-text-stroke: 1px black; */
+    border-bottom: 1px solid white;
+}
+.image-text a{
+    text-decoration: none;
+}
+.image-date{
+    margin-top: 15px;
+    display: flex;
+    font-size: .9vw;
+    /* position: absolute; */
+}
+.image-date ul{
+    display: flex;
+    gap: 30px;
+}
+.contact{
+  
+}
+.contact-box{
+    /* border: 2px solid green; */
+    width: 75vw;
+    margin: auto;
+    padding: 80px;
+    
+}
+.contact-first{
+    text-transform: uppercase;
+    font-size: 2.8vw;
+    width: 50%;
+    letter-spacing: 1px;
+    line-height: 50px;
+}
+.fill{
+    font-size: 1.1vw;
+    margin-bottom: 40px;
+    padding: 5px 0 30px 0;
+}
+form{
+/* border: 2px solid #ff0000; */
+width: 65vw;
+}
+.input-name{
+    width: 100%;
+}
+.first-input{
+    display: flex;
+    gap: 13.7px;
+    width: 100%;
+}
+label{
+    font-size: .8vw;
+    display: block;
+    margin: 10px 0;
+    padding: 10px 0;
+}
+.phone-num{
+    display: flex;
+    border-radius: 7px;
+    overflow: hidden;
+    width: 96.5%;
+}
+.phone-num img{
+    width: 15px;
+}
+.phone-num button{
+    background-color: rgb(44, 44, 44);;
+    border: none;
+    border-right: 1px solid rgb(125, 125, 125);
+    padding: 10px;
+    font-size: 1vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+.phone-num input{
+    /* border-top-left-radius: none; */
+    border-radius: 0;
+    width: 96%;
+}
+input{
+    font-size: 1vw;
+    width: 96.5%;
+    padding: 15px;
+    background-color:rgb(44, 44, 44);
+    border: none;
+    outline: none;
+    color: white;
+    border-radius: 7px;
+}
+input::placeholder, textarea::placeholder{
+    color: rgba(255, 255, 255, 0.532);
+}
+textarea{
+    width: 64vw;
+    border: none;
+    outline: none;
+    font-size: 1vw;
+    height: 10vh;
+    padding: 15px;
+    background-color: rgb(44, 44, 44);
+    color: white;
+    border-radius: 7px;
+}
+.last{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+.button-icon button{
+    /* border: 2px solid blue; */
+    border: none;
+    color: black;
+    padding: 10px;
+    width: 30vw;
+    border-radius: 25px;
+}
+.social-media{
+    font-size: 1.3vw;
+    padding: 10px 0;
+    letter-spacing: 10px;
+}
+footer{
+    background-color: #050505;
+    /* height: 50vh; */
+}
+.footer-box{
+    /* border: 2px solid red; */
+    width: 60vw;
+    margin: auto;
+    border-bottom: 1px solid aqua;
+    padding: 100px 10px 50px 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-box ul li{
+    text-align: center;
+    padding: 10px 0;
+    list-style: none;
+    font-size: 1vw;
+    }
+.footer-hash ul a,.footer-page ul a{
+    text-decoration: none;
+}
+.end{
+    /* border: 2px solid red; */
+    width: 60vw;
+    padding: 20px 10px 50px 10px;
+    margin: auto;
+    display: flex;
+    font-size: .9vw;
+    justify-content: space-between;
+}
+.copyright{
+    /* padding: 40px 25px; */
+}
+
+/* Media Queries (responsive web) */
+
+@media (max-width : 850px) {
+    header{
+    flex-direction: column;
+      gap: 20px;
+    }
+    #intro{
+        /* border: 2px solid green; */
+        position: relative;
+        left: -30px;
+    }
+    /* Home */
+
+    .Home{
+        border-bottom: 1px solid rgb(255, 255, 255);
+    }
+    #Home h1{
+        font-size: 2.5vw;
+    }
+    .head-line ul a{
+        font-size: 1.5vw;
+    }
+    .Home{
+        flex-direction: column;
+    }
+    #intro h2{
+        font-size: 1.2vw;
+        padding: 0;
+    }
+    #intro h3{
+        margin: 20px 0;
+        font-size: 5vw;
+    }
+    #intro p{
+        font-size: 1.5vw;
+        width: 45vw;
+        margin-bottom: 10px;
+    }
+    .Home img{
+        height: 40vh;
+        width: 30vw;
+        margin-bottom: 60px;
+        border: 5px solid blue;
+    }
+    /* About */
+
+    .About{
+        flex-direction: column;
+        
+    }
+    .About img{
+        border: 2px solid red;
+        position: relative;
+        height: 40vh;
+        width: 35vw;
+        /* left: -30px; */
+    }
+    .box{
+        position: absolute;
+    }
+    .box1{
+        height: 10px;
+        width: 10px;
+        z-index: 100;
+    }
+    .box2{
+        right: 33.5%;
+        width: 10px;
+        height: 10px;
+        z-index: 101;
+    }
+    .box3{
+        height: 10px;
+        width: 10px;
+        z-index: 102;
+    }
+    .introduction h2{
+        margin-left: 10vw;
+        margin-top: 20px;
+        font-size: 3.2vw;
+    }
+    .introduction h5{
+        font-size: 2.5vw;
+        margin-left: 10vw;
+        margin-bottom: 2vw;
+    }
+    .introduction p{
+        font-size: 1.7vw;
+        margin-left: 10vw;
+        line-height: 2.3vh;
+    }
+    /* Service */
+
+    .service .circle{
+        width: 10px;
+        height: 10px;
+    }
+    .service h2, .service .two{
+        font-size: 3.5vw;
+    }
+
+    /* Blog */
+
+    .blog-box h1{
+        font-size: 3.5vw;
+    }
+    .blog-image1 h1{
+        font-size: 3vw;
+    }
+    .blog-image1 h2{
+        font-size: 1.2vw;
+        margin-bottom: 5px;
+    }
+    /* Testimonials */
+
+    .upper .circle{
+        height: 10px;
+        width: 10px;
+    }
+    .upper i{
+        font-size: 4vw;
+    }
+    .testimonials #docs{
+        font-size: 3.5vw;
+    }
+    .upper{
+        width: 85vw;
+    }
+
+    /* Contact  */
+
+    .contact-box h1{
+        /* border: 2px solid green; */
+        width: 45vw;
+        font-size: 3.5vw;
+    }
+    .contact-box p{
+        font-size: 1.5vw;
+    }
+    .contact-box label{
+        font-size: 2vw;
+        padding: 1vw .4vw;
+    }
+    .contact-box input{
+        font-size: 1.7vw;
+        padding: 1.5vw ;
+    }
+    .contact-box textarea{
+        font-size: 1.5vw;
+    }
+    .contact-box button{
+        font-size: 1.5vw;
+        font-style: italic;
+    }
+    .contact-box i{
+        font-size: 2vw;
+    }
+
+    /* Footer  */
+
+    .footer-name h1{
+        font-size: 2.5vw;
+    }
+    .footer-box ul a{
+        font-size: 1.4vw;
+    }
+    .end p{
+        font-size: 1.1vw;
+    }
+
+}
+    </style>
+</head>
+<body>
+    <header id="Home">
+        <h1 style="user-select: none;">&#9763; <span style="color: blue;">RUPESH </span>SAH &#9763;</h1>
+        <nav style="user-select: none;" class="head-line">
+            <ul>
+                <li><a style="color: blue;" href="">Home</a></li>
+                <li><a href="#About">About</a></li>
+                <li><a href="#Service">Service</a></li>
+                <li><a href="#Blog">Blog</a></li>
+                <li><a href="#Contact">Contact</a></li>
+                <li><div class="search">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div></li>
+            </ul>
+            
+        </nav>
+    </header>
+  <section class="Home">
+    <div id="intro">
+        <h2>Design Portfolio</h2>
+        <h3>Hello!<span> I'm </span>a web designer+ <span>developer</span></h3>
+        <p>Beautiful design has the power to captivate audiences and drive business growth. Specializing in creating stunning designs that transform businesses worldwide.</p>
+    </div>
+    <img src="assets/rupesh.png" alt="">
+  </section>
+  <section id="About" class="About">
+ 
+    <div class="image">
+        
+            <div class="box box1"></div>
+            <div class="box box2"></div>
+            <div class="box box3"></div>
+                
+        <img src="assets/rupesh2.png" alt="">
+    </div>
+    <div class="introduction">
+        <h2>Hello! I'm <span style="color: blue;">Rupesh Sah</span></h2>
+        <h5>Every great design begin with an even better story.</h5>
+        <p>It is a long establish fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem lpsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here',making it look like redable English.</p>
+    </div>
+
+  </section>
+<section id="Service" class="service">
+    <div class="service-box">
+        <div class="circle circle1"></div>
+    <div class="circle circle2"></div>
+    <div class="circle circle3"></div>
+    <h2 class="two">Service I Provide</h2>
+        <div class="uper">
+            <div class="skils-box skill">
+                <h2 class="product"><i class="fa-brands fa-android"></i> APK Built</h2>
+            </div>
+            <div class="skils-box2 skill">
+                <h2 class="product"><i class="fa-solid fa-globe"></i> Web Developing</h2>
+            </div>
+            <div class="skils-box3 skill">
+                <h2 class="product"><i class="fa-solid fa-user-shield"></i> User Security</h2>
+            </div>
+            <div class="skils-box4 skill">
+                <h2 class="product"><i class="fa-regular fa-copyright"></i> Copywriting</h2>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="Blog" class="blog">
+ <div class="blog-container">
+    <div class="blog-box">
+        <h1>New from blog</h1>
+    </div>
+    <div class="button-box">
+        <button>Read more blog</button>
+    </div>
+    </div>
+    <div id="blog-image">
+     
+        <div class="blog-image1">
+            <div class="image-layer">
+
+            </div>
+           <img src="assets/digineptronics.png" alt="">
+                <div class="image-text">
+                    <a href="assets/Digineptronics/digineptronics.html" target="_blank"><h1 class="image-text1">
+                        Digineptronics
+                    </h1></a>
+                    <h2 class="image-date">
+                        June 5, 2024 
+                        <ul>
+                            <li>Cyber Security</li>
+                            <li>Courses</li>
+                        </ul>
+                    </h2>
+                </div>
+            </div>
+        <div class="blog-image1">
+            <div class="image-layer">
+
+            </div>
+          <img src="assets/Amazon.jpg" alt="">
+                <div class="image-text">
+                    <a href="assets/Amazon/Amazon.html" target="_blank"><h1 class="image-text1">
+                        Amazon
+                    </h1></a>
+                    <h2 class="image-date">
+                        May 21, 2024 
+                        <ul>
+                            <li>Marketing</li>
+                            <li>Productivity</li>
+                        </ul>
+                    </h2>
+                </div>
+            </div>
+        <div class="blog-image1">
+            <div class="image-layer">
+
+            </div>
+            <img src="https://th.bing.com/th/id/OIP.klo0AgDl_xbXUMwsy31MswHaDt?w=287&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="">
+                <div class="image-text">
+                    <a href="assets/Facebook/Facebook.html" target="_blank"><h1 class="image-text1">
+                        Facebook
+                    </h1></a>
+                    <h2 class="image-date">
+                        April 15, 2024 
+                        <ul>
+                            <li>Social Media</li>
+                            <li>Ads</li>
+                        </ul>
+                    </h2>
+                </div>
+            </div>
+        <div class="blog-image1">
+            <div class="image-layer">
+
+            </div>
+            <img src="assets/Mero_Share/mero_share.webp" alt="">
+                <div class="image-text">
+                    <a href="assets/Mero_Share/Mero Share.html" target="_blank"><h1 class="image-text1">
+                        Mero Share
+                    </h1></a>
+                    <h2 class="image-date">
+                        Feb 29, 2024 
+                        <ul>
+                            <li>Banking</li>
+                            <li>Digital Marketing</li>
+                        </ul>
+                    </h2>
+                </div>
+            </div>
+        </div>
+    
+</section>
+<section id="testimonials" class="testimonials">
+    <h1 id="docs">Client Testimonials</h1>
+
+        <div class="upper">
+            <div class="circle circle1"></div>
+            <div class="circle circle2"></div>
+
+            <h1 class="one">///</h1>
+            <h2 class="two">It was a pleasure working on a design project and I must say that the experience exceeded all my expectations.</h2>
+            <div id="profile">
+                <img src="assets/profile.jpg" alt="">
+            </div>
+            <h3 class="my-name">Rupesh Sah</h3>
+            <p>Director</p>
+            <i class="fa-solid fa-circle-chevron-left"></i>
+            <i class="fa-solid fa-circle-chevron-right"></i>
+            
+        </div>
+</section>
+<section id="Contact" class="contact">
+    <div class="contact-box">
+        <h1 class="contact-first">
+            Let's Talk About The Next big thing.</h1>
+            <p class="fill">
+                Fill in the form to contact me or send a email to <a href="https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcSBnqKjSMMXXxtjFlwmNmTWlVwCWdjPBLNpnJqPMwcxPSfpkcNWdfTGTGcsglFbNlBWJLcpl" target="_blank">nothingtosee628@gmail.com</a>
+            </p>
+            <form>
+            <div class="first-input">
+                <div class="input-name">
+                    <label for="Name">Name</label>
+                     <input type="text">
+                </div>
+            <div class="input-name">
+                <label for="Email">Email</label>
+                 <input type="email" placeholder="someone@gmail.com">
+            </div>
+            </div>
+            <div class="first-input">
+                <div class="input-name">
+                    <label for="Phone">Phone</label>
+                     <div class="phone-num">
+                        <button>
+                            <img src="assets/nepal.png" alt=""> +977</button>
+                        <input type="text" maxlength="10" placeholder="">
+                     </div>
+                </div>
+            <div class="input-name">
+                <label for="Company">Company</label>
+            <input type="text">
+            </div>
+            </div>
+           <div class="message-box">
+            <label for="Message">Message</label>
+        <textarea style="resize: none;" name="Message" id="Message" placeholder="Please type your message here..." ></textarea>
+           </div>
+            <div class="last">
+                <div class="button-icon">
+                    <button>GET IN TOUCH</button>
+                    </div>
+                <div class="social-media">
+                <a href="https://www.facebook.com/capitan.rupesh.628" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://www.instagram.com/its_mrbaby/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://x.com/Rupesh1122628" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                <a href="https://www.youtube.com/@VoiceofRupesh" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+                </div>
+            </div>
+            </form>
+    </div>
+</section>
+<footer>
+    <div class="footer-box">
+        <div class="footer-name">
+            <h1><span style="color: blue;">RUPESH </span>SAH</h1>
+        </div>
+        <div class="footer-hash">
+            <ul>
+                <li style="letter-spacing: 2px;" ><a href="">MAIN</a></li>
+                <li><a href="#Home">Home</a></li>
+                <li><a href="#About">About</a></li>
+                <li><a href="#Service">Services</a></li>
+                <li><a href="#Blog">Projects</a></li>
+            </ul>
+        </div>
+        <div class="footer-page">
+            <ul>
+                <li style="letter-spacing: 2px;" ><a href="">PAGES</a></li>
+                <li><a href="#Contact">Contact</a></li>
+                <li><a href="">Terms & Condition</a></li>
+                <li><a href="">Privacy Policy</a></li>
+                <li><a href="">Instruction</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="end">
+        <div class="copyright">
+            <p>© 2024 Rupesh Sah. All Rights Reserved.</p>
+        </div>
+        <div class="designer">
+            <p>Designed By Rupesh Sah &hearts;</p>
+        </div>
+    </div>
+</footer>
+</body>
+</html>

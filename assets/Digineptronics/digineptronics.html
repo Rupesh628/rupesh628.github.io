@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digineptronics R & D Based Company</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        *{
+            margin: 0;
+            color: white;
+            font-family: sans-serif;
+            background-color: #01051a;
+        }
+        body,html{
+            scroll-behavior: smooth;
+        }
+.rupesh{
+    /* height: 100vh; */
+    /* width: 100vw; */
+}
+#logo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    /* border: 2px solid red; */
+}
+nav ul{
+    display: flex;
+    list-style: none;
+
+    gap: 20px;
+}
+nav ul li{
+    width: 65px;
+}
+li:hover a{
+    color: aqua;
+}
+li:hover .line{
+    width: 65px;
+}
+#logo img{
+    /* border: 2px solid red; */
+    padding: 5px 65px;
+    position: relative;
+    /* filter: blur(10px); */
+    /* filter: brightness(6%); */
+    /* filter: contrast(50%); */
+    /* filter: drop-shadow(5px 5px 10px red); */
+    /* filter: hue-rotate(310deg); */
+    /* filter: grayscale(100%); */
+}
+.first{
+    /* border: 2px solid green; */
+    font-size: 17px;
+    /* position: absolute;
+    right: 9%;
+    top: 10%; */
+    word-spacing: 22px;
+    /* padding: 10px; */
+}
+/* .logo-line:hover .line */
+.line{
+    /* border: 2px solid aqua; */
+    height: 5px;
+    background-color: aqua;
+    border-radius: 10px;
+    width: 0px;
+    margin-top: 5px;
+
+    transition: all .2s linear;
+
+}
+ a{
+    text-decoration: none;
+    color: white;
+}
+#second{
+    border: 2px solid red;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.left{
+    border: 2px solid green;
+    width: 50%;
+}
+#second-box{
+    width: 50%;
+    border: 2px solid yellow;
+}
+
+#second h2{
+    color: #F6EC4F;
+    font-size: 20px;
+    letter-spacing: 13.2px;
+    font-weight: 600;
+    /* margin: 60px 165px; */
+}
+#second h1{
+    font-size: 10vw;
+    font-weight: 700;
+    /* margin: -45px 165px; */
+    transition: all .6s linear;
+}
+.second-last{
+    /* width: 40%; */
+    /* border: 2px solid red; */
+    /* position: relative; */
+}
+.second-last h3{
+    font-size: 2.4rem;
+    /* position: relative;
+    left: 170px;
+    top: 80px; */
+    font-weight: 100;
+}
+h4{
+    font-size: 1.4rem;
+    font-weight: 100;
+    /* position: relative;
+    left: 170px;
+    top: 115px; */
+}
+h5{
+    font-size: 26px;
+    /* position: relative;
+    left: 170px;
+    top: 135px; */
+}
+#second-box{
+    /* border: 2px solid aqua; */
+    border-radius: 20px 20px 213px 213px;
+    background-image: url(robot.jpeg);
+    background-size: cover;
+    height: 500px;
+  
+}
+ .box{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    /* animation: change 1s linear  infinite  ; */
+  
+} 
+@keyframes change {
+    0%{
+    filter: hue-rotate(0deg);
+    }
+    100%{
+filter: hue-rotate(360deg);
+    }
+    
+}
+@media screen and (max-width:1244px) {
+    #second .main-title{
+        /* font-size: 3.5rem; */
+    }
+    #second  #second-box{
+        width: 30%;
+    }
+}
+@media screen and (max-width:950px) {
+    #second {
+        flex-direction: column;
+    }
+}
+@media screen and (min-width:500px) and (max-width:800px) {
+    #second {
+        /* flex-direction: column; */
+        background-color: red;
+    }
+}
+
+
+    </style>
+</head>
+<body>
+    <!-- <div class="box"></div> -->
+    
+        <div id="logo">
+            <img src="digineptronics-logo.png" height="150px" width="150px" alt="">
+            <nav class="logo-line">
+                <ul>
+                    <li>
+                        <a href="">Home</a>
+<div class="line"></div>
+                    </li>
+                    <li>
+
+                        <a href="#third">WhoWeAre</a>
+                    </li>
+                </ul>
+                <!-- <a href="">Services <i class="fa-solid fa-angle-down"></i></a>
+                <a href="">Support</a>
+                <a href="">Blog</a> -->
+                </nav>
+        </div>
+        <section id="second">
+          <div class="left">
+            <h2>R&D BASED COMPANY</p>
+                <h1 class="main-title"><span style="color: #03a063;">Digi</span>neptronics</h1>
+                <div class="second-last">
+                    <h3>
+                        Your Technology partner for innovative and impactful digital solutions
+                    </h3>
+                    <h4>Stand out online with a professional website, online store, Graphics design, Digital marketing, Ed-Tech and content writing With Digineptronics.</h4>
+                    <h5>Turn your idea into reality.</h5>
+                </div>
+    
+          </div>    
+                  <div id="second-box">
+
+            </div>
+        </section>
+     
+
+    
+
+</body>
+</html>

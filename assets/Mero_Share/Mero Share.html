@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mero Share</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Reddit+Mono:wght@200..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <style>
+        *{
+            margin: 0;
+            box-sizing: border-box;
+            color: white;
+        }
+        body{
+            width: 100%;
+            background-color: #333a56;
+        }
+        .box{
+            width: 550px;
+            height: 500px;
+            background-color: transparent;
+            margin: 108px auto;
+            padding: 30px;
+            border-radius: 7px;
+            box-shadow:  5px 8px 10px rgba(0, 0, 0, 0.197), -5px -3px 7px rgba(0, 0, 0, 0.096);
+        }
+        .box img{
+            position: relative;
+            top: 5px;
+        }
+        h1{
+            text-align: center;
+             /* font-family: "Ubuntu Sans Mono", monospace; */
+             font-family: sans-serif;
+            margin: 15px 0;
+            text-transform: uppercase;
+        }
+        span{
+            color: red;
+        }
+        .user{
+            margin: 20px 0;
+            padding: 5px;
+        }
+        form .user input{
+            width: 100%;
+            height: 34.6px  ;
+            color: rgba(31, 29, 29, 0.723);
+         padding: 6px 12px;
+         margin-top: 5px;
+         font-family: "Roboto";
+         border-radius: 7px;
+         border: 0;
+        }
+        form label{
+            font-family: "Roboto", sans-serif;
+            font-size: 12.8px;
+        }
+        form .user select{
+            width: 100%;
+            padding: 8px;
+            margin-top: 5px;
+            color: black;
+            background-color: rgb(220, 220, 235);
+        }
+        form .user button{
+            background-color: #4f5b8a;
+            width: 100%;
+            height: 46.4px;
+            padding: 8px;
+            font-size: 20px;
+            color: White;
+           border: 0;
+           border-radius: 7px;
+        }
+       form .pass{
+        text-align: center;
+        color: white;
+        font-family: "Roboto", sans-serif;
+        text-transform: capitalize;
+        font-size: 12px;
+       }
+       form .pass a{
+        text-decoration: none;
+       }
+        .lasting{
+            text-align: center;
+            font-size: 10px;
+            font-family: "Roboto", sans-serif;
+            /* padding: 5px; */
+            position: relative;
+            bottom: 80px;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+<h1>Mer<img src="mero.png " height="30" width="30" alt=""> <span>Share</span></h1>
+<form>
+        <div class="user"> 
+            <i class="fa-solid fa-house"></i>
+         <label for="">Depository Participant</label>
+        <select name="Depository Participant" id="Participant">
+        <option value=""></option>
+        <option value="NIC Capital">NIC Capital</option>
+        <option value="Kumari Bank">Kumari Bank</option>
+        <option value="Mega Bank">Mega Bank</option>
+         </select>
+        </div>
+        <div class="user">
+            <i class="fa-regular fa-user"></i>
+        <label for="Username">Username</label>
+        <input type="text" required>
+        </div>
+        <div class="user">
+            <i class="fa-solid fa-lock"></i>
+         <label for="Password">Password</label>
+          <input type="Password">
+        </div>
+        <div class="user">
+       <button>Login</button>
+        </div>
+        <div class="pass">
+       <a href="https://meroshare.cdsc.com.np/#/forgetPassword">forgot your password?</a>
+        </div>
+</form>
+    </div>
+    
+    <p class="lasting"> <i class="fa-regular fa-copyright"></i> 2024 CSD and Clearing Limited. All Rights Reserved</p>
+    
+</body>
+</html>
