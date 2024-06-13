@@ -1,28 +1,23 @@
 @media screen and (max-width : 450px) {
+ 
     header{
         gap: 10px;
-        padding: 15px 0 50px 0;
+        padding: 15px 0 20px 0;
+
         }
-        nav ul{
-        gap: 20px;
-        display: none;
-        }
+        
        .head-line{
-        width: 100%;
+        /* width: 100%; */
         /* border: 2px solid blue; */
     }
-.head-line i{
-    display: block;
-    /* border: 2px solid red; */
-    text-align: right;
-    padding-right: 20px;
-}
+    
+
     #intro{
         margin: 0;
         
     }
     #intro h2, #intro h3, #intro p{
-        width: 90vw;
+        /* width: 90vw; */
     }
         .Home img{
             margin: 0;
@@ -76,9 +71,7 @@
         }
         
         /* Blog */
-        .blog-image1{
-            left: 35px;
-        }
+     
         .blog-image1 h2{
         font-size: 1.5vw;
         margin-bottom: 5px;
@@ -105,14 +98,13 @@
         
         /* Contact  */
         .contact-box{
-            padding: 0;
         }
         .fill{
-            padding: 0;
+            /* padding: 35px; */
         }
         .contact-box h1{
         /* border: 2px solid green; */
-        width: 85vw;
+        /* width: 85vw; */
         font-size: 3.5vw;
         }
         .first-input{
@@ -126,14 +118,14 @@
         padding: 1vw .4vw;
         }
         .contact-box input{
-        font-size: 2vw;
+        font-size: 13px;
         padding: 3vw ;
         }
         .contact-box textarea{
-        font-size: 2vw;
+        /* font-size: 2vw; */
         }
         .contact-box button{
-        font-size: 2vw;
+        font-size: 13px;
         font-style: italic;
         }
         .contact-box i{
@@ -144,19 +136,25 @@
         }
         textarea{
             width: 77vw;
+            font-size: 15px;
+
+            
+        }
+        textarea::placeholder{
+            font-size: 15px;
         }
 
         
         /* Footer  */
         
         .footer-name h1{
-        font-size: 2.5vw;
+        /* font-size: 2.5vw; */
         }
         .footer-box ul a{
-        font-size: 1.4vw;
+        /* font-size: 1.4vw; */
         }
         .end p{
-        font-size: 1.1vw;
+        /* font-size: 1.1vw; */
         }
         }
     

@@ -14,6 +14,7 @@
     
 }
 body{
+    /* overflow-x: hidden; */
     /* border: 2px solid red; */
 }
 body,html{
@@ -27,18 +28,19 @@ header{
     padding: 15px 0 100px 0;
     /* margin-bottom: 40px; */
     background-color: var(--backgoundcolor);
+    /* border: 2px solid green; */
 }
 
 nav{
     /* margin-right: 50px ; */
 
 }
-ul{
+nav ul{
     display: flex;
     align-items: center;
     gap: 50px;
 }
-.head-line i{
+#Home .menu{
     display: none;
 }
 nav ul li{
@@ -58,18 +60,6 @@ h1{
 font-size: 27px;
 padding: 10px 0;
 }
-.search{
-height: 30px;
-width: 30px;
-border: 2px solid white;
-border-radius: 50%;
-display: flex;
-justify-content: center;
-align-items: center;
-}
-.search i{
-font-size: 15px;
-}
 .Home{
 display: flex;
 justify-content: space-around;
@@ -77,7 +67,7 @@ align-items: center;
 }
 #intro{
 /* border: 2px solid red; */
-width: 47vw;
+/* width: 47vw; */
 margin-left: 110px;
 }
 #intro h2{
@@ -359,11 +349,12 @@ cursor: pointer;
 .blog-container{
 /* border: 2px solid red; */
 /* height: 70vh; */
-width: 70vw;
+width: 80%;
 margin: auto;
 display: flex;
 justify-content: space-between;
 padding-bottom: 30px;
+/* border: 2px solid red; */
 }
 
 .blog-box h1{
@@ -384,12 +375,13 @@ align-items: center;
 padding: 10px;
 }
 #blog-image{
-width: 75vw;
+width: 100%;
 display: flex;
-justify-content: space-between;
+justify-content: center;
 flex-wrap: wrap;
 margin: auto;
 gap: 15px;
+padding: 30px;
 }
 
 .image-layer{
@@ -456,7 +448,7 @@ gap: 30px;
 }
 .contact-box{
 /* border: 2px solid green; */
-width: 75vw;
+/* width: 75vw; */
 margin: auto;
 padding: 80px;
 
@@ -475,7 +467,7 @@ padding: 5px 0 30px 0;
 }
 form{
 /* border: 2px solid #ff0000; */
-width: 65vw;
+/* width: 65vw; */
 }
 .input-name{
 width: 100%;
@@ -529,11 +521,12 @@ border-radius: 7px;
 input::placeholder, textarea::placeholder{
 color: rgba(255, 255, 255, 0.532);
 }
-textarea{
-width: 64vw;
+.message-box textarea{
+width: 100%;
 border: none;
 outline: none;
-font-size: 1vw;
+font-size: 15px;
+border: 2px solid red;
 height: 10vh;
 padding: 15px;
 background-color: rgb(44, 44, 44);
@@ -568,30 +561,33 @@ background-color: #050505;
 }
 .footer-box{
 /* border: 2px solid red; */
-width: 80vw;
+width: 80%;
 margin: auto;
 border-bottom: 1px solid aqua;
-padding: 100px 10px 50px 10px;
+padding: 50px ;
 display: flex;
-justify-content: space-between;
+justify-content: flex-start;
 flex-wrap: wrap;
+flex-direction: column;
+gap: 20px;
 }
 .footer-box ul li{
 text-align: center;
 padding: 10px 0;
 list-style: none;
-font-size: 1vw;
+font-size: 1.2rem;
 }
 .footer-hash ul a,.footer-page ul a{
 text-decoration: none;
 }
 .end{
 /* border: 2px solid red; */
-width: 60vw;
-padding: 20px 10px 50px 10px;
+/* width: 60vw; */
+/* padding: 20px 10px 50px 10px; */
 margin: auto;
 display: flex;
-font-size: .9vw;
+font-size: .7rem;
+padding: 50px;
 justify-content: space-between;
 }
 .copyright{
@@ -725,18 +721,20 @@ font-size: 1.7vw;
 padding: 1.5vw ;
 }
 .contact-box textarea{
-font-size: 1.5vw;
+/* font-size: 1.5vw; */
 }
 .contact-box button{
 font-size: 1.5vw;
 font-style: italic;
 }
 .contact-box i{
-font-size: 2vw;
+/* font-size: 2vw; */
 }
 
 /* Footer  */
-
+footer{
+    /* border: 2px solid red; */
+}
 .footer-name h1{
 font-size: 27px;
 }
@@ -744,6 +742,6 @@ font-size: 27px;
 font-size: 16px;
 }
 .end p{
-font-size: 1.1vw;
+/* font-size: 1.1vw; */
 }
 }
