@@ -520,7 +520,7 @@ color: white;
 border-radius: 7px;
 }
 input::placeholder, textarea::placeholder{
-color: rgba(255, 255, 255, 0.332);
+color: rgba(255, 255, 255, 0.532);
 }
 .message-box textarea{
 width: 100%;
