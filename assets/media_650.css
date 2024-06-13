@@ -1,194 +1,194 @@
-@media screen and (max-width : 650px) {
+@media screen and (max-width : 650px) {   
     section{
-     /* border: 2px solid green; */
- }
- nav ul{
-     gap: 20px;
-     display: block;
-     position: fixed;
-     right: 100%;
-     top: 0;
-     /* bottom: 0; */
-     /* left: 0; */
-     width: 250px;
-     height: 100vh;
-     z-index: 999;
-     background-color: rgba(0, 0, 255, 0.189);
-     backdrop-filter: blur(5px);
-     }
-     #Home .menu{
-         display: block;
-         font-size: 2rem;
-     }
-     .header-box{
-         width: 100%;
-         /* border: 2px solid red; */
-         display: flex;
-         justify-content: space-between;
-         align-items: center;
-         padding: 0 30px 0 30px;
-     }
-     
- footer{
-     /* border: 2px solid green; */
- }
- header{
-     /* border: 2px solid green; */
+        /* border: 2px solid green; */
+    }
+    nav ul{
+        gap: 20px;
+        display: block;
+        position: fixed;
+        right: 100%;
+        top: 0;
+        /* bottom: 0; */
+        /* left: 0; */
+        width: 250px;
+        height: 100vh;
+        z-index: 999;
+        background-color: rgba(0, 0, 255, 0.189);
+        backdrop-filter: blur(5px);
+        }
+        #Home .menu{
+            display: block;
+            font-size: 2rem;
+        }
+        .header-box{
+            width: 100%;
+            /* border: 2px solid red; */
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 30px 0 30px;
+        }
+        
+    footer{
+        /* border: 2px solid green; */
+    }
+    header{
+        /* border: 2px solid green; */
 
- }
- header{
-     gap: 10px;
-     padding: 15px 0 50px 0;
-     }
+    }
+    header{
+        gap: 10px;
+        padding: 15px 0 50px 0;
+        }
 
-     #intro h2{
-     font-size: 15px;
-     }
-     #intro{
-         /* width: 69vw; */
-         left: 0;
-         /* width: 80%; */
-         margin: 10px;
-         padding: 30px;
-     }
-     #intro h3{
-         font-size: 27px;
-     }
-     #intro p{
-     font-size: 17px;
-     /* width: 90vw; */
-     width: 100%;
-     font-style: italic;
-     font-weight: 100;
-     margin-bottom: 25px;
-     }
-     .Home img{
-     height: 40vh;
-     width: 45vw;
-     margin-bottom: 60px;
-     border: 4px solid blue;
-     }
-     /* About */
-     
-     .About{
-     flex-direction: column;
-     
-     }
-     .About img{
-     /* border: 2px solid red; */
-     position: relative;
-     height: 45vh;
-     width: 45vw;
-     left: -15px;
-     }
+        #intro h2{
+        font-size: 15px;
+        }
+        #intro{
+            /* width: 69vw; */
+            left: 0;
+            /* width: 80%; */
+            margin: 10px;
+            padding: 30px;
+        }
+        #intro h3{
+            font-size: 27px;
+        }
+        #intro p{
+        font-size: 17px;
+        /* width: 90vw; */
+        width: 100%;
+        font-style: italic;
+        font-weight: 100;
+        margin-bottom: 25px;
+        }
+        .Home img{
+        height: 40vh;
+        width: 45vw;
+        margin-bottom: 60px;
+        border: 4px solid blue;
+        }
+        /* About */
+        
+        .About{
+        flex-direction: column;
+        
+        }
+        .About img{
+        /* border: 2px solid red; */
+        position: relative;
+        height: 45vh;
+        width: 45vw;
+        left: -15px;
+        }
 
-     .introduction{
-         width: 66vw;
-     }
-     .introduction h2{
-     font-size: 5vw;
-     }
-     .introduction h5{
-     font-size: 27px;
-     margin-bottom: 2vw;
-     }
-     .introduction p{
-     font-size: 3vw;
-     line-height: 22px;
-     font-style: italic;
-     letter-spacing: 2px;
-     }
-     /* Service */
-     
-     .service .circle{
-     width: 10px;
-     height: 10px;
-     }
-     .service h2, .service .two{
-     font-size: 3.5vw;
-     }
-     
-     /* Blog */
-     
-     .blog-box h1{
-         font-size: 20px;
-     }
-     .button-box button{
-         font-size: 15px;
-     }
-     .blog-image1 h2{
-     font-size: 1.2vw;
-     margin-bottom: 5px;
-     }
-     /* Testimonials */
-     
-     .upper .circle{
-     height: 10px;
-     width: 10px;
-     }
-     .upper i{
-     font-size: 4vw;
-     }
-     .testimonials #docs{
-     font-size: 3.5vw;
-     }
-     .upper{
-     /* width: 85vw; */
-     height: 40vh;
-     }
-     .testimonials{
-         padding: 20px;
-     }
-     
-     /* Contact  */
-     .contact-box{
-         padding: 65px;
-         /* margin: auto; */
-     }
-     .contact-box h1{
-     /* border: 2px solid green; */
-     /* width: 80vw; */
-     font-size: 3.5vw;
-     }
-     .contact-box p{
-     font-size: 1.9vw;
-     }
-     .contact-box label{
-     font-size: 2vw;
-     padding: 1vw .4vw;
-     }
-     .contact-box input{
-     font-size: 1.7vw;
-     padding: 1.5vw ;
-     }
-     .contact-box textarea{
-     /* font-size: 1.8vw; */
-     }
-     .contact-box button{
-     font-size: 1.5vw;
-     font-style: italic;
-     }
-     .contact-box i{
-     font-size: 2vw;
-     }
-     form{
-         /* width: 80vw; */
-     }
-     textarea{
-         /* width: 80vw; */
-     }
+        .introduction{
+            width: 66vw;
+        }
+        .introduction h2{
+        font-size: 5vw;
+        }
+        .introduction h5{
+        font-size: 27px;
+        margin-bottom: 2vw;
+        }
+        .introduction p{
+        font-size: 3vw;
+        line-height: 22px;
+        font-style: italic;
+        letter-spacing: 2px;
+        }
+        /* Service */
+        
+        .service .circle{
+        width: 10px;
+        height: 10px;
+        }
+        .service h2, .service .two{
+        font-size: 3.5vw;
+        }
+        
+        /* Blog */
+        
+        .blog-box h1{
+            font-size: 20px;
+        }
+        .button-box button{
+            font-size: 15px;
+        }
+        .blog-image1 h2{
+        font-size: 1.2vw;
+        margin-bottom: 5px;
+        }
+        /* Testimonials */
+        
+        .upper .circle{
+        height: 10px;
+        width: 10px;
+        }
+        .upper i{
+        font-size: 4vw;
+        }
+        .testimonials #docs{
+        font-size: 3.5vw;
+        }
+        .upper{
+        /* width: 85vw; */
+        height: 40vh;
+        }
+        .testimonials{
+            padding: 20px;
+        }
+        
+        /* Contact  */
+        .contact-box{
+            padding: 50px;
+            /* margin: auto; */
+        }
+        .contact-box h1{
+        /* border: 2px solid green; */
+        /* width: 80vw; */
+        font-size: 3.5vw;
+        }
+        .contact-box p{
+        font-size: 1.9vw;
+        }
+        .contact-box label{
+        font-size: 2vw;
+        padding: 1vw .4vw;
+        }
+        .contact-box input{
+        font-size: 1.7vw;
+        padding: 1.5vw ;
+        }
+        .contact-box textarea{
+        /* font-size: 1.8vw; */
+        }
+        .contact-box button{
+        font-size: 1.5vw;
+        font-style: italic;
+        }
+        .contact-box i{
+        font-size: 2vw;
+        }
+        form{
+            /* width: 80vw; */
+        }
+        textarea{
+            /* width: 80vw; */
+        }
 
-     
-     /* Footer  */
-     
-     .footer-name h1{
-     /* font-size: 2.5vw; */
-     }
-     .footer-box ul a{
-     /* font-size: 1.4vw; */
-     }
-     .end p{
-     /* font-size: 1.1vw; */
-     }
-     }
- 
+        
+        /* Footer  */
+        
+        .footer-name h1{
+        /* font-size: 2.5vw; */
+        }
+        .footer-box ul a{
+        /* font-size: 1.4vw; */
+        }
+        .end p{
+        /* font-size: 1.1vw; */
+        }
+        }
+    
