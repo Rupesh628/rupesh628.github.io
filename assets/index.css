@@ -65,11 +65,12 @@ padding: 10px 0;
 display: flex;
 justify-content: space-around;
 align-items: center;
+padding: 0 100px;
 }
 #intro{
 /* border: 2px solid red; */
 /* width: 47vw; */
-margin-left: 110px;
+/* margin-left: 110px; */
 }
 #intro h2{
 font-size: .8vw;
@@ -565,7 +566,7 @@ background-color: #050505;
 width: 80%;
 margin: auto;
 border-bottom: 1px solid aqua;
-padding: 50px ;
+padding: 10px ;
 display: flex;
 justify-content: flex-start;
 flex-wrap: wrap;
@@ -618,6 +619,7 @@ left: -30px;
 }
 .Home{
 flex-direction: column;
+padding: 0 80px;
 }
 #intro h2{
 font-size: 1.2vw;
@@ -628,14 +630,15 @@ margin: 20px 0;
 font-size: 5vw;
 }
 #intro p{
-font-size: 1.5vw;
-width: 45vw;
+font-size: 17px;
+width: 100%;
 margin-bottom: 10px;
 letter-spacing: 2px;
+margin-bottom: 40px;
 }
 .Home img{
 height: 40vh;
-width: 30vw;
+width: 40vw;
 margin-bottom: 60px;
 border: 5px solid blue;
 }
@@ -649,20 +652,26 @@ flex-direction: column;
 border: 2px solid red;
 position: relative;
 height: 40vh;
-width: 35vw;
+width: 40vw;
 /* left: -30px; */
 }
-
+.introduction{
+    width: 70%;
+    
+    padding: 0 40px;
+    /* border: 2px solid red; */
+}
 .introduction h2{
 margin-top: 20px;
-font-size: 3.2vw;
+font-size: 30px;
+
 }
 .introduction h5{
-font-size: 2.5vw;
+font-size: 25px;
 margin-bottom: 2vw;
 }
 .introduction p{
-font-size: 1.7vw;
+font-size: 17px;
 line-height: 2.3vh;
 }
 /* Service */
@@ -681,7 +690,7 @@ font-size: 3.5vw;
 font-size: 3.5vw;
 }
 .blog-image1 h1{
-font-size: 3vw;
+font-size: 17px;
 }
 .blog-image1 h2{
 font-size: 1.2vw;

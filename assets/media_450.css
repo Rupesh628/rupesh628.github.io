@@ -45,15 +45,15 @@
             width: 90vw;
         }
         .introduction h2{
-        font-size: 6vw;
-        margin-left: 40px;
+        /* font-size: 6vw; */
+        /* margin-left: 40px; */
         }
         .introduction h5{
-        font-size: 27px;
+        /* font-size: 27px; */
         margin-bottom: 4vw;
         }
         .introduction p{
-        font-size: 3.5vw;
+        /* font-size: 3.5vw; */
         line-height: 20px;
         font-style: italic;
         letter-spacing: 2px;
@@ -73,7 +73,8 @@
         /* Blog */
      
         .blog-image1 h2{
-        font-size: 1.5vw;
+        font-size: 10px;
+        gap: 20px;
         margin-bottom: 5px;
         }
         /* Testimonials */
@@ -83,14 +84,20 @@
         width: 10px;
         }
         .upper i{
-        font-size: 4vw;
+        font-size: 20px;
         }
         .testimonials #docs{
-        font-size: 3.5vw;
+        font-size: 17px;
         }
         .upper{
-        width: 85vw;
-        height: 35vh;
+        width: 80vw;
+        height: 40vh;
+        }
+        .upper .two{
+            font-size: 17px;
+        }
+        .upper p{
+            font-size: 10px;
         }
         .testimonials{
             padding: 20px;
@@ -104,14 +111,16 @@
         }
         .contact-box h1{
         /* border: 2px solid green; */
-        /* width: 85vw; */
-        font-size: 3.5vw;
-        }
+        width: 85vw;
+        font-size: 15px;
+        line-height: 25px;
+    }
         .first-input{
             flex-direction: column;
         }
         .contact-box p{
-        font-size: 2.0vw;
+        font-size: 10px;
+        padding: 0;
         }
         .contact-box label{
         font-size: 3.5vw;
@@ -126,16 +135,33 @@
         }
         .contact-box button{
         font-size: 13px;
+        width: 80px;
+        /* margin-bottom: 20px; */
         font-style: italic;
         }
+        .contact-box .last{
+            flex-direction: column;
+            
+        }
+        .button-icon{
+            text-align: center;
+        }
+        .last .icon-button{
+            width: 200px;
+            margin-bottom: 20px;
+        }
+        .social-media{
+            text-align: center;
+        }
         .contact-box i{
-        font-size: 3vw;
+        font-size: 20px;
+        /* border: 2px solid red; */
         }
         form{
             width: 80vw;
         }
         textarea{
-            width: 77vw;
+            width: 40vw;
             font-size: 15px;
 
             
