@@ -724,6 +724,10 @@ font-size: 3.5vw;
 .contact-box p{
 font-size: 1.5vw;
 }
+.contact-box p a {
+    color: rgba(0, 0, 255, 0.699);
+    letter-spacing: 1px;
+}
 .contact-box label{
 font-size: 2vw;
 padding: 1vw .4vw;
