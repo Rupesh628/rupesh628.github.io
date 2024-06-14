@@ -307,6 +307,7 @@ font-size: 2.9vw;
 padding: 0;
 margin-bottom: 3%;
 color: blue;
+padding-top: 10px;
 }
 .upper .two{
 width: 78%;
@@ -566,7 +567,7 @@ background-color: #050505;
 width: 80%;
 margin: auto;
 border-bottom: 1px solid aqua;
-padding: 10px ;
+padding: 15px ;
 display: flex;
 justify-content: flex-start;
 flex-wrap: wrap;
@@ -589,7 +590,7 @@ text-decoration: none;
 margin: auto;
 display: flex;
 font-size: .7rem;
-padding: 50px;
+padding: 30px;
 justify-content: space-between;
 }
 .copyright{
