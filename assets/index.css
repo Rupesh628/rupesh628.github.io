@@ -341,10 +341,11 @@ color: blue;
 letter-spacing: 2px;
 text-transform: uppercase;
 }
+
 .upper i{
 font-size: 2vw;
 padding-top: 30px;
-cursor: pointer;
+cursor: cell;
 }
 .blog{
 /* height: 100vh; */
