@@ -85,6 +85,7 @@
         }
         .upper i{
         font-size: 25px;
+        display: inline-block;
         margin-inline: 15px;
         }
         .testimonials #docs{
