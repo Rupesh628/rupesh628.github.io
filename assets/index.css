@@ -277,7 +277,7 @@ margin-bottom: 40px;
 .upper{
 /* border: 2px solid red; */
 background-color: #1a1a1b;
-height: 62vh;
+/* height: 62vh; */
 width: 70%;
 text-align: center;
 margin: auto;
@@ -341,11 +341,11 @@ color: blue;
 letter-spacing: 2px;
 text-transform: uppercase;
 }
-
 .upper i{
 font-size: 2vw;
 padding-top: 30px;
-cursor: cell;
+cursor: pointer;
+padding-bottom: 20px;
 }
 .blog{
 /* height: 100vh; */
