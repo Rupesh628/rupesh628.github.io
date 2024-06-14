@@ -447,8 +447,9 @@ font-size: .9vw;
 display: flex;
 gap: 30px;
 }
-.contact{
-
+.contact-box p a {
+    color: rgba(0, 0, 255, 0.699);
+    letter-spacing: 1px;
 }
 .contact-box{
 /* border: 2px solid green; */
