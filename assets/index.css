@@ -759,7 +759,7 @@ font-size: 1.5vw;
 font-style: italic;
 }
 .contact-box i{
-/* font-size: 2vw; */
+font-size: 20px;
 }
 
 /* Footer  */
@@ -768,9 +768,16 @@ footer{
 }
 .footer-name h1{
 font-size: 27px;
+/* width: 100%; */
 }
 .footer-box ul a{
 font-size: 16px;
+}
+.footer-box{
+    flex-direction: column;
+}
+.footer-page{
+    padding-top: 70px;
 }
 .end p{
 /* font-size: 1.1vw; */
