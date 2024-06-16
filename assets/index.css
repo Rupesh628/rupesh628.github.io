@@ -589,10 +589,18 @@ background-color: rgb(0, 0, 0);
     top: 0;
     object-fit: cover;
     z-index: -1;
-    opacity: 30%;
-    filter: hue-rotate(50deg);
-    /* mix-blend-mode: lighten; */
-    
+    opacity: 20%;
+    /* filter: hue-rotate(120deg); */
+    mix-blend-mode: screen;
+}
+.footer-box img{
+    /* mix-blend-mode: ; */
+    filter: brightness(40%) ;
+    transform: rotateY(180deg);
+    position: absolute;
+    /* top: 0; */
+    bottom: -50px;
+    right: 50px;
 }
 .footer-box ul li{
 text-align: center;
@@ -779,7 +787,13 @@ font-size: 16px;
 .footer-page{
     padding-top: 70px;
 }
+
 .end p{
 /* font-size: 1.1vw; */
 }
+}
+@media (max-width : 1300px) {
+    .footer-box img{
+        display: none;
+    }
 }
